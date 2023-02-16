@@ -10,6 +10,8 @@
  
  nav {
    background-color: #000000;
+   text-align: center;
+ 
    
  }
 nav>a {
@@ -18,6 +20,7 @@ nav>a {
    display: inline-block;
    color: aliceblue;
    font-weight: bold;
+   text-align: center;
 }
 
 nav > a:hover {
@@ -41,4 +44,36 @@ h1{
 .quick-bold{
    font-weight: bolder;
    font-size: larger;
+}
+
+input, textarea{
+   background-color:aliceblue;
+   border-radius: 11px;
+   color:#000000;
+   padding:8px 12px;
+   border-color: 25px black;
+}
+input:focus {
+   background-color: snow;
+   text-shadow: 8px;
+
+}
+input[type=submit], input[type=reset] {
+   background-color: rgba(85, 85, 107, 0.244);
+   border-radius:120px;
+   padding:8px 12px;
+   border-color: azure ;
+   
+   
+}
+form {
+   border: 12px solid #000000;
+   background-color:rgba(52, 93, 228, 0.816);
+   font-weight: bolder;
+   border-radius: 12px;
+   text-align: center;
+}
+img{
+   border: 12px solid #000000;
+   border-radius:30px;
 }
