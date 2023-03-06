@@ -40,7 +40,15 @@ h1{
 }
 #p1 {
    font-weight: bolder;
-   font-size:larger
+   font-size:larger;
+   border: 16px solid #000000;
+   background-color:rgba(240, 240, 240, 0.816);
+   font-weight: bolder;
+   border-radius: 12px;
+   text-align: center;
+   border-style:double;
+   color:#000000;
+
 
 }
 .center-text{
@@ -87,6 +95,18 @@ img{
 .float-r{
     float:right;
 }
+.float-l{
+   float:left;
+}
+#elden-ring
+{
+   position: fixed 0px;
+   margin-right:auto;
+   float: left;
+}
+#apex{
+   float: left;
+}
 #linkedin{
    color:rgb(255, 255, 255)
 }
@@ -104,15 +124,45 @@ img{
 }
 #collab{
    color: #ffffff;
-}
-@media screen an (max-width: 480px;){
+} 
+#socials{
+border: 16px solid #f7f7f7;
+   background-color:rgba(0, 0, 0, 0.816);
+   font-weight: bolder;
+   border-radius: 12px;
+   text-align: center;
+   border-style:double;
+   color:#fafafa;}
+
+@media screen and (max-width:480px;){
    #my_photo{
       width:50%;
    }
    .float-r{
       float:unset;
    }
-
+   #destiny{
+      width:50%;
+   }
+   #elden-ring
+    {width:50%;
+   }
 }
 /* mobile-phone */
-   
+
+<style>
+main {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+<main>
+  <!-- Page content -->
+</div>
+
+</body>
