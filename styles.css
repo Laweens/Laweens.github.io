@@ -147,6 +147,9 @@ border: 16px solid #f7f7f7;
    #elden-ring
     {width:30%;
    }
+   #apex{
+      width: fit-content;
+   }
 }
 /* mobile-phone */
 
