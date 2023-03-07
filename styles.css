@@ -150,6 +150,9 @@ border: 16px solid #f7f7f7;
    #apex{
       width: fit-content;
    }
+   nav{
+      width:auto;
+   }
 }
 /* mobile-phone */
 
