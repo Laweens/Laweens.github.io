@@ -12,7 +12,7 @@
  }
  
  nav {
-   background-color: #000000;
+   background-color: #fffdfd;
    text-align: center;
    position: sticky;
    top: 0;
@@ -21,15 +21,15 @@
  }
 nav>a {
    text-decoration: none;
-   padding: 15px 45px;
+   padding: 15px 25px;
    display: inline-block;
-   color: aliceblue;
+   color: rgb(0, 0, 0);
    font-weight: bold;
    text-align: center;
 }
 
 nav > a:hover {
-   background-color: rgb(0, 140, 142);
+   background-color: rgb(111, 10, 10);
 }
 
 h1{ 
@@ -145,7 +145,7 @@ border: 16px solid #f7f7f7;
       width:30%;
    }
    #elden-ring
-    {width:30%;
+    {width:20%;
    }
    #apex{
       width: fit-content;
